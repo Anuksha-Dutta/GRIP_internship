@@ -1,2 +1,7 @@
-CODE
+# Plotting the distribution of scores
+s_data.plot(x='Hours', y='Scores', style='o')  
+plt.title('Hours vs Percentage')  
+plt.xlabel('Hours Studied')  
+plt.ylabel('Percentage Score')  
+plt.show()
    
